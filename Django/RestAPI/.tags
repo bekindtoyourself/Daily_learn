@@ -1,0 +1,89 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	.\tutorial\settings.py	/^ALLOWED_HOSTS = []$/;"	v
+AUTH_PASSWORD_VALIDATORS	.\tutorial\settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+AppConfig	.\snippets\apps.py	/^from django.apps import AppConfig$/;"	i
+AppConfig	.\tutorial\quickstart\apps.py	/^from django.apps import AppConfig$/;"	i
+BASE_DIR	.\tutorial\settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+DATABASES	.\tutorial\settings.py	/^DATABASES = {$/;"	v
+DEBUG	.\tutorial\settings.py	/^DEBUG = True$/;"	v
+Group	.\tutorial\quickstart\serializers.py	/^from django.contrib.auth.models import User, Group$/;"	i
+Group	.\tutorial\quickstart\views.py	/^from django.contrib.auth.models import User, Group$/;"	i
+GroupSerializer	.\tutorial\quickstart\serializers.py	/^class GroupSerializer(serializers.HyperlinkedModelSerializer):$/;"	c
+GroupSerializer	.\tutorial\quickstart\views.py	/^from tutorial.quickstart.serializers import UserSerializer, GroupSerializer$/;"	i
+GroupViewSet	.\tutorial\quickstart\views.py	/^class GroupViewSet(viewsets.ModelViewSet):$/;"	c
+INSTALLED_APPS	.\tutorial\settings.py	/^INSTALLED_APPS = [$/;"	v
+LANGUAGE_CHOICES	.\snippets\models.py	/^LANGUAGE_CHOICES = sorted([(item[1][0], item[0]) for item in LEXERS])$/;"	v
+LANGUAGE_CODE	.\tutorial\settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LEXERS	.\snippets\models.py	/^LEXERS = [item for item in get_all_lexers() if item[1]]$/;"	v
+MIDDLEWARE	.\tutorial\settings.py	/^MIDDLEWARE = [$/;"	v
+Meta	.\snippets\models.py	/^    class Meta:$/;"	c	class:Snippet
+Meta	.\tutorial\quickstart\serializers.py	/^    class Meta:$/;"	c	class:GroupSerializer
+Meta	.\tutorial\quickstart\serializers.py	/^    class Meta:$/;"	c	class:UserSerializer
+QuickstartConfig	.\tutorial\quickstart\apps.py	/^class QuickstartConfig(AppConfig):$/;"	c
+REST_FRAMEWORK	.\tutorial\settings.py	/^REST_FRAMEWORK = {$/;"	v
+ROOT_URLCONF	.\tutorial\settings.py	/^ROOT_URLCONF = 'tutorial.urls'$/;"	v
+SECRET_KEY	.\tutorial\settings.py	/^SECRET_KEY = 'ert4g8@0dyurzy(^s92ci!1+ewgo4*_a2=7*$1hk_dy6%gj^-p'$/;"	v
+STATIC_URL	.\tutorial\settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STYLE_CHOICES	.\snippets\models.py	/^STYLE_CHOICES = sorted((item, item) for item in get_all_styles())$/;"	v
+Snippet	.\snippets\models.py	/^class Snippet(models.Model):$/;"	c
+SnippetsConfig	.\snippets\apps.py	/^class SnippetsConfig(AppConfig):$/;"	c
+TEMPLATES	.\tutorial\settings.py	/^TEMPLATES = [$/;"	v
+TIME_ZONE	.\tutorial\settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TestCase	.\snippets\tests.py	/^from django.test import TestCase$/;"	i
+TestCase	.\tutorial\quickstart\tests.py	/^from django.test import TestCase$/;"	i
+USE_I18N	.\tutorial\settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	.\tutorial\settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	.\tutorial\settings.py	/^USE_TZ = True$/;"	v
+User	.\tutorial\quickstart\serializers.py	/^from django.contrib.auth.models import User, Group$/;"	i
+User	.\tutorial\quickstart\views.py	/^from django.contrib.auth.models import User, Group$/;"	i
+UserSerializer	.\tutorial\quickstart\serializers.py	/^class UserSerializer(serializers.HyperlinkedModelSerializer):$/;"	c
+UserSerializer	.\tutorial\quickstart\views.py	/^from tutorial.quickstart.serializers import UserSerializer, GroupSerializer$/;"	i
+UserViewSet	.\tutorial\quickstart\views.py	/^class UserViewSet(viewsets.ModelViewSet):$/;"	c
+WSGI_APPLICATION	.\tutorial\settings.py	/^WSGI_APPLICATION = 'tutorial.wsgi.application'$/;"	v
+admin	.\snippets\admin.py	/^from django.contrib import admin$/;"	i
+admin	.\tutorial\quickstart\admin.py	/^from django.contrib import admin$/;"	i
+admin	.\tutorial\urls.py	/^from django.contrib import admin$/;"	i
+application	.\tutorial\wsgi.py	/^application = get_wsgi_application()$/;"	v
+code	.\snippets\models.py	/^    code = models.TextField()$/;"	v	class:Snippet
+created	.\snippets\models.py	/^    created = models.DateTimeField(auto_now_add=True)$/;"	v	class:Snippet
+execute_from_command_line	.\manage.py	/^        from django.core.management import execute_from_command_line$/;"	i
+fields	.\tutorial\quickstart\serializers.py	/^        fields = ('url', 'name')$/;"	v	class:GroupSerializer.Meta
+fields	.\tutorial\quickstart\serializers.py	/^        fields = ('url', 'username', 'email', 'groups')$/;"	v	class:UserSerializer.Meta
+get_all_lexers	.\snippets\models.py	/^from pygments.lexer import get_all_lexers$/;"	i
+get_all_styles	.\snippets\models.py	/^from pygments.styles import get_all_styles$/;"	i
+get_wsgi_application	.\tutorial\wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	i
+include	.\tutorial\urls.py	/^from django.conf.urls import url, include$/;"	i
+language	.\snippets\models.py	/^    language = models.CharField(choices=LANGUAGE_CHOICES, default='python', max_length=100)$/;"	v	class:Snippet
+linenos	.\snippets\models.py	/^    linenos = models.BooleanField(default=False)$/;"	v	class:Snippet
+model	.\tutorial\quickstart\serializers.py	/^        model = Group$/;"	v	class:GroupSerializer.Meta
+model	.\tutorial\quickstart\serializers.py	/^        model = User$/;"	v	class:UserSerializer.Meta
+models	.\snippets\models.py	/^from django.db import models$/;"	i
+models	.\tutorial\quickstart\models.py	/^from django.db import models$/;"	i
+name	.\snippets\apps.py	/^    name = 'snippets'$/;"	v	class:SnippetsConfig
+name	.\tutorial\quickstart\apps.py	/^    name = 'quickstart'$/;"	v	class:QuickstartConfig
+ordering	.\snippets\models.py	/^        ordering = ('created',)$/;"	v	class:Snippet.Meta
+os	.\manage.py	/^import os$/;"	i
+os	.\tutorial\settings.py	/^import os$/;"	i
+os	.\tutorial\wsgi.py	/^import os$/;"	i
+path	.\tutorial\urls.py	/^from django.urls import path$/;"	i
+queryset	.\tutorial\quickstart\views.py	/^    queryset = Group.objects.all()$/;"	v	class:GroupViewSet
+queryset	.\tutorial\quickstart\views.py	/^    queryset = User.objects.all().order_by('-date_joined')$/;"	v	class:UserViewSet
+render	.\snippets\views.py	/^from django.shortcuts import render$/;"	i
+render	.\tutorial\quickstart\views.py	/^from django.shortcuts import render$/;"	i
+router	.\tutorial\urls.py	/^router = routers.DefaultRouter()$/;"	v
+routers	.\tutorial\urls.py	/^from rest_framework import routers$/;"	i
+serializers	.\tutorial\quickstart\serializers.py	/^from rest_framework import serializers$/;"	i
+serializers_class	.\tutorial\quickstart\views.py	/^    serializers_class = GroupSerializer/;"	v	class:GroupViewSet
+serializers_class	.\tutorial\quickstart\views.py	/^    serializers_class = UserSerializer$/;"	v	class:UserViewSet
+style	.\snippets\models.py	/^    style = models.CharField(choices=STYLE_CHOICES, default='friendly', max_length=100)$/;"	v	class:Snippet
+sys	.\manage.py	/^import sys$/;"	i
+title	.\snippets\models.py	/^    title = models.CharField(max_length=100, blank=True, default='')$/;"	v	class:Snippet
+url	.\tutorial\urls.py	/^from django.conf.urls import url, include$/;"	i
+urlpatterns	.\tutorial\urls.py	/^urlpatterns = [$/;"	v
+views	.\tutorial\urls.py	/^from tutorial.quickstart import views$/;"	i
+viewsets	.\tutorial\quickstart\views.py	/^from rest_framework import viewsets$/;"	i
