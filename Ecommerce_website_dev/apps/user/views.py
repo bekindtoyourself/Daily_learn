@@ -44,7 +44,7 @@ def register(request):
             user = None
 
         if user:
-            return render(request, 'register.html', 'errmsg':'用户名已存在 ')
+            return render(request, 'register.html', {'errmsg':'用户名已存在 '})
 
         user = User.objects.create_user(username, email, password)
 

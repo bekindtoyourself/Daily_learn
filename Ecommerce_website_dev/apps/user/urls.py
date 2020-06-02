@@ -4,4 +4,5 @@ from user.views import RegisterView, ActiveView, LoginView, LogoutView, UserInfo
 
 urlpatterns = [
     url(r'^register$', RegisterView.as_view(), name='register'),
+    
 ]
